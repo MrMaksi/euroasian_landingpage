@@ -1,0 +1,40 @@
+.slider{
+	.carousel-indicators{
+		li{
+			width: 24px;
+			height: 24px;
+			background-color: #414146;
+			border-radius:0;
+		}
+		li:active{
+			background-color: #ffea00;
+		}
+	}
+		.banner-slider{
+			background:url(../../images/slider/slider_bg.png);
+		}
+			
+	.slick-initialized,.slick-slide{
+		padding: 0 15px !important;
+	}
+
+}
+.thumbnail .caption{
+	color: #fff !important;
+    background: #414146;
+}
+h3,h4{
+text-align: center;
+}
+h3
+.portfolio-img{
+		padding-bottom: 5px!important;
+	}
+	.new_padding div{
+		padding-left: 5px !important;
+    	padding-right:5px !important;
+	}
+	.new_padding{
+		padding-left: 0 !important;
+    	padding-right:0 !important;
+	}

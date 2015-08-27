@@ -1,0 +1,45 @@
+header{
+	.navbar-static-top{
+		min-height: 160px;
+		margin-bottom: 0;
+			img{
+				padding-top: 20px;
+			}
+				.navbar-right li a{
+					font-family: CODE_Light;
+					font-size: 16px;
+					color:#000;
+					font-weight: 600;
+					@include breakpoint(small){
+					float: none;
+					}
+				}
+				.navbar-right{
+				@include breakpoint(small){
+					float: none !important;
+					padding: 0;
+					}
+					@include breakpoint(extra-small){
+					padding: 0;
+					}
+				}
+					.navbar-right li{
+					@include breakpoint(small){
+						float: none !important;
+						}
+					}
+					.navbar-right li:hover{
+					background-color: #ffea00;
+					}
+
+				ul{
+					    padding: 50px 0;
+				}
+					.active{
+						background-color: #ffea00;
+					}
+					.navbar-toggle{
+						margin-top: 50px;
+					}
+	}
+}

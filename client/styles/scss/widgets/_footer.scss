@@ -1,0 +1,90 @@
+footer{
+	.top-footer{
+		    padding: 20px 0;
+		background: #414146;
+		color: #fff;
+			p{
+				font-size: 13px;
+				@include breakpoint(middle){
+					font-size: 11px;
+				}
+					// @include breakpoint(small){
+					// 	font-size: 20px;
+					// }
+			}
+			h4{
+				@include breakpoint(middle){
+					font-size: 15px;
+				}
+				@include breakpoint(small){
+					font-size: 13px;
+				}
+			}
+				.btn{
+					padding: 7px 23px;
+					background: #000;
+					border-bottom: 2px solid #ffea00;
+					border-radius: 0;
+				}
+					.photo{
+						// width: 28%;
+						padding-bottom: 10px;
+					}
+						small{
+							font-size: 8px;
+							color:#ffea00;
+						}
+							span{
+								color:#ffea00;
+							}
+								.tweets{
+									p .fa{
+										padding-right: 10px;
+									}
+								}
+									.contact-info{
+										p .fa{
+											padding-right: 10px;
+										}
+									}
+								.md-grid{
+					   					width:36%;
+
+									@include breakpoint(extra-small){
+					   					width:100%;
+										}
+								}
+								.sm-grid{
+					   					width:22%;
+
+									@include breakpoint(extra-small){
+					   					width:100%;
+										}
+								}
+								.tweets-icons{
+									.fa:before{
+										display: block;
+									}
+								}
+
+	}
+	.bottom-footer{
+		.navbar-static-bottom{
+			background: #000;
+			border-color: transparent;
+			margin-bottom: 0;
+			border-radius: 0;
+		}
+			.navbar-brand{
+				font-size: 14px !important;
+				@include breakpoint(small){
+					    padding-left: 22%;
+				}
+			}
+				.nav-bottom li a{
+					font-family: CODE_Light;
+					font-size: 16px;
+					font-weight: 600;
+				}
+	}
+}
